@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(67, 34, 139);
+}
+.bloc{
+   
+    width: 50%;     /* la largeur de notre bloc*/
+    height: 250px; /* la longeur de notre bloc*/
+
+    background-color:  green;
+    justify-content: center;
+    border: 2px solid black;
+    margin-bottom: 0.5rem ;/* pour laisser de l'espace entre les blocs*/
+}
+
+#premier,#deuxieme{   /* */
+    display: flex;
+    gap: 1rem; /* pour séparer les 2 divs des blocs*/
+}
+
+p{  
+    position: relative;
+    top: 50%;
+    left: 50%;
+    writing-mode: vertical-lr; /* pour l'écriture en verticale des blocs*/
+    font-size: large;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center; 
+}
